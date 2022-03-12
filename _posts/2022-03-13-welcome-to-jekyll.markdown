@@ -22,6 +22,24 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+# head 1
+
+ctrl+shift+p 단축키
+
+어퍼스트로피 하고 언어 종류 입력하면 알아서 문법 하이라이트 쳐줌
+
+터미널에서 해당 파일에 cd . 하면 해당 파일을 알아서 열어줌?
+
+편집기 추천 :  노션, 크래프트?
+
+```c
+#include <stdio.h>
+
+int main(){
+  return 0;
+}
+```
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
