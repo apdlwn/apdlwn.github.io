@@ -16,3 +16,5 @@ gem "wdm", "~> 0.1.1" if Gem.win_platform?
                gem "jekyll-algolia"
                end
 
+
+gem "webrick", "~> 1.7"
