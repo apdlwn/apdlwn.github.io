@@ -1,0 +1,52 @@
+I"H
+<h2 id="git--github">Git / Github</h2>
+
+<ul>
+  <li>git : 버전관리시스템(vcs 중의 하나)-&gt;소스파일에 대한 버전을 관리 : 저장소</li>
+  <li>github : git-&gt;(온라인에 올리기 때문에)온라인저장소 : 다른 사람들도 접근하기 용이 : 협업툴</li>
+  <li>github pages : 웹호스팅 : 을 무료로 제공해줌 (지킬을 사용) =&gt;my awesome site같은 폴더를 온라인 저장소에다 올리면 사이트가 생성</li>
+</ul>
+
+<hr />
+
+<h2 id="명령어">명령어</h2>
+
+<p>저장소 생성 혹은 초기화</p>
+
+<p><code class="language-plaintext highlighter-rouge">git init [directory]</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git clone [repositoty]</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git init .</code>=&gt;현재 디렉토리를 초기화하겠다</p>
+
+<p><code class="language-plaintext highlighter-rouge">git clone 저장소주소 (디렉토리명)</code>=&gt;저장소 주소에 디렉토리명의 내용을 복사</p>
+
+<p>git : 로컬 저장소 버전 관리, 협업도 가능</p>
+
+<p>github : 온라인 저장소, 버전 관리, 협업</p>
+
+<h2 id="저장소-초기화">저장소 초기화</h2>
+<p><code class="language-plaintext highlighter-rouge">git init [directory]</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git clone [repositoty] [directory]</code></p>
+
+<p>[] 나 &lt;&gt;는 무조건 해야한다.</p>
+
+<h2 id="버전-관리-업데이트">버전 관리 (업데이트)</h2>
+<p><code class="language-plaintext highlighter-rouge">git pull</code> : 온라인 저장소 -&gt;로컬 저장소 다운로드</p>
+
+<p><code class="language-plaintext highlighter-rouge">git add [file...]</code> : commit 할 파일들 스테이징(로컬에서)</p>
+
+<p><code class="language-plaintext highlighter-rouge">git commit -m [message]</code> : 스테이징 파일들을 버전 업데이트</p>
+
+<p>모든 파일을 commit 할 필요는 x -&gt; commit할 파일들만 stage에 올려놓기 =&gt; git add <파일> ... / 모두 올려놓고 싶으면 파일 자리에 .</파일></p>
+
+<p>stage에서 내리고 싶으면 <code class="language-plaintext highlighter-rouge">git rm --cached &lt;파일&gt;...</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git push</code> : 로컬 저장소에서 버전 업데이트 된 것을 온라인 저장소로 업로드</p>
+
+<h2 id="현재-상태">현재 상태</h2>
+<p><code class="language-plaintext highlighter-rouge">git status</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git log</code> -&gt; commit 이력들이 나옴</p>
+:ET
