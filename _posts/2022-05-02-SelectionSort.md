@@ -25,20 +25,20 @@ public class Selection_Sort {
 	}
 	public static void main(String[] args) {
 		int[] a=new int[1048576];
-		Random random=new Random(); 
+	//	Random random=new Random(); 
 		int n=a.length;
 		for(int i=0; i<n; i++) {  //int i=n-1; i>=0 역순으로 설정할때
-			a[i]=random.nextInt(); 
-			//a[i]=i;
-		//	System.out.print(a[i]+" ");
+		//	a[i]=random.nextInt(); 
+			a[i]=i;
+			System.out.print(a[i]+" ");
 		}
 		System.out.print("\n");
 		long start = System.currentTimeMillis();
 		selection_sort(a);
 		long end = System.currentTimeMillis();
-		//for(int i=0; i<n; i++) {
-		//	System.out.print(a[i]+" ");
-		//}
+		for(int i=0; i<n; i++) {
+		System.out.print(a[i]+" ");
+		}
 		System.out.print("\n");
 		System.out.println("실행시간 : " + (end - start)/1000.0);
 	}
