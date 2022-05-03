@@ -60,10 +60,10 @@ public class Quick_Sort {
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();
 		int[] a=new int[32];
-		//Random random=new Random(); 랜덤으로 설정할 때
+	//	Random random=new Random(); 랜덤으로 설정할 때
 		int n=a.length;
-		for(int i=0; i<n; i++) {  //int i=n-1; i>=0 역순으로 설정할때
-			//a[i]=random.nextInt(); 랜덤으로 설정할때
+		for(int i=0; i<n; i++) {  //int i=n-1; i>=0 i--역순으로 설정할때
+	//		a[i]=random.nextInt(); 랜덤으로 설정할때
 			a[i]=i;
 			System.out.print(a[i]+" ");
 		}
